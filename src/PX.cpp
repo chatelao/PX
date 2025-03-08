@@ -224,7 +224,7 @@ void PX::isr() {
     // driven by RISING signal INT0 (pins 2 ATmega328)
 
     // 3 different states are distinguished
-    //     1. SNYC = looking for a SYNC signal
+    //     1. SYNC = looking for a SYNC signal
     //     2. ADDR = (after SYNC received) look for base address (0..15)
     //     3. DATA = (after ADDR decoded) decode the 7 data-bytes
 
